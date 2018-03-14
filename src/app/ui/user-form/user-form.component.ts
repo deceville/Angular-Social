@@ -44,7 +44,8 @@ export class UserFormComponent implements OnInit {
   }
 
   signup() {
-    this.auth.emailSignUp(this.userForm.value['email'], this.userForm.value['password']);
+    this.auth.emailSignUp(this.userForm.value['email'], this.userForm.value['password'],  this.userForm.value['fullName'], this.userForm.value['mobileNumber'], this.userForm.value['address'],
+  this.userForm.value['about']);
   }
 
   login() {
