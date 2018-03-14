@@ -59,3 +59,4 @@ And finally `ng serve`
 
 - [ArtiFilter](https://app.artifilter.com) - Neural Art Generator
 - [FlashLawyer](https://flashlawyer.com) - Legal Document Builder and Chatbot
+# Angular-Social
